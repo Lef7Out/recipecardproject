@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-size: 16px;
+}
+
+.recipe-card{
+    background-color: white;
+    width: 500px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    line-height: 1.5;
+    
+}
+.time-info {
+    width: 100%;
+    background-color: hsl(330, 100%, 98%);
+    padding: 5px;
+}
+.time-info ul {
+    margin: 0;
+    color: hsl(0, 0%, 0%);
+
+}
+h2 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    color: hsl(332, 51%, 32%);
+    text-align: left;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family:"Young Serif" , sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 20px;
+    
+}
+h3 {
+    font-family: "Young Serif", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.divider{
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th, h3 {
+    color: hsl(14, 45%, 36%);
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold; 
+}
+.recipe-image {
+    width: 500px;
+    height: auto;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.instructions {
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 500px) {
+    .recipe-card {
+        width: 100%;
+        padding: 15px;
+    
+    }
+    .recipe-image {
+        width: 100%;
+        height: auto;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+    h3 {
+        font-size: 1.1em;
+    }
+    body {
+        font-size: 14px;
+    }
+    
+}
